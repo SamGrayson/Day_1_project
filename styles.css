@@ -1,0 +1,39 @@
+body {
+  background-color: #abcfff;
+  border-color: black;
+  border-style: double;
+  text-align: center;
+}
+
+.pColor {
+  color:white;
+}
+
+#cage {
+  margin: 10px auto;
+}
+
+#box {
+  width: 90%;
+  height: 90%;
+  background-color: gray;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  display: block;
+  padding: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  color:red;
+  font-size:50px;
+  line-height:10px;
+}

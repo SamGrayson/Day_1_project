@@ -1,0 +1,186 @@
+body {
+  background-image: url("https://thewolfmancometh.files.wordpress.com/2011/07/drive-angry-3d-explosion-nicolas-cage-hair-highlights-car.jpg?w=1200");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  margin:100px 100px 100px 100px;
+  height: 100%;
+}
+
+.innerPage {
+  padding: 20px;
+  height:700px;
+  width:1000px;
+  background-color: hsla(0, 0%, 0%, 0);
+  margin: auto;
+  border-radius: 40px;
+  color:white;
+  font-family: sans-serif;
+}
+
+.header {
+  float: right;
+  background: rgba(100, 100, 100, 0.9);
+  width:810px;
+  height:100px;
+  border-top-right-radius: 40px;
+  font-style: italic;
+}
+
+.sideBar {
+  float: left;
+  text-align: center;
+  background: rgba(100, 100, 100, 0.9);
+  height:700px;
+  width: 185px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.main {
+  float: right;
+  background: rgba(100, 100, 100, 0.9);
+  margin: 5px 0px 0px 0px;
+  height: 595px;
+  width: 810px;
+  border-bottom-right-radius: 40px;
+  vertical-align: top;
+}
+
+.movies {
+  float: left;
+  margin:10px 5px 5px 10px;
+  display: inline-block;
+  height:280px;
+  width:390px;
+  background: hsla(0, 0%, 0%, 0.6);
+}
+
+.movies:hover {
+  position: relative;
+  background: hsla(0, 0%, 0%, 1);
+}
+
+.imgLinks {
+  text-align: center;
+  display: inline-block;
+  margin: 50px 5px 10px 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.imgLinks p:hover {
+  text-decoration: none;
+  color: green;
+}
+
+.aboutMe {
+  float:right;
+  margin:10px 10px 10px 0px;
+  display: inline-block;
+  height:280px;
+  width:390px;
+  background: hsla(0, 0%, 0%, 0.6);
+}
+
+.aboutMe:hover {
+  position: relative;
+  background: hsla(0, 0%, 0%, 1);
+}
+
+.aboutMe p {
+  margin: 20px 0px 0px 10px;
+}
+
+.me {
+  float:left;
+  margin:5px 5px 5px 10px;
+  display: inline-block;
+  height:280px;
+  width:390px;
+  background: hsla(0, 0%, 0%, 0.6);
+}
+
+.me:hover {
+  position: relative;
+  background: hsla(0, 0%, 0%, 1);
+}
+
+.me img {
+  display: inline-block;
+  margin: 0px 0px 0px 40px;
+}
+
+.contact {
+  float:right;
+  margin:0px 10px 5px 0px;
+  display: inline-block;
+  height:280px;
+  width:390px;
+  background: hsla(0, 0%, 0%, 0.6);
+  border-bottom-right-radius: 40px;
+}
+
+.contact:hover {
+  position: relative;
+  background: hsla(0, 0%, 0%, 1);
+}
+
+.contact p {
+  color: white;
+  text-align: center;
+}
+
+.contact a {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0px 0px 60px;
+}
+
+.social {
+  display: inline-block;
+  margin: auto;
+}
+
+#profPic {
+  display: inline-block;
+  border-radius: 60px;
+  border-width: thick;
+  border-color: white;
+  border-style: solid;
+  width: 120px;
+  height: 120px;
+  margin: 80px auto 0px auto;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 20px 20px 10px 20px;
+}
+
+h2 {
+  margin: 20px 0px 40px 0px;
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-style: oblique;
+  background: hsla(360, 100%, 100%, 0.5);
+  margin: 0px;
+  font-size: 30px;
+}
+
+.sidecage li {
+  margin: 10px;
+  list-style: square;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: left;
+}
